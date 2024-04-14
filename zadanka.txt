@@ -1,0 +1,11 @@
+git commit
+git checkout -b bugFix
+git checkout -b bugFix, git checkout bugFix, git commit, git checkout main, git commit, git merge bugFix
+git checkout -b bugFix, git checkout bugFix, git commit, git checkout main, git commit, git checkout bugFix, git rebase main
+git checkout main^, git checkout C3
+git checkout C1, git branch -f bugFix C0,git branch -f main C6
+git checkout C2, git revert HEAD, git branch -f pushed c2', git branch -f local main
+git checkout main, git cherry-pick C3 C4 C6, git branch -f main C7
+git rebase -i HEAD~4
+git checkout C1, git cherry-pick C4, git branch -f bugFix c4', git branch -f main c4' 
+git rebase -i HEAD~2, git rebase -i HEAD~2, git checkout C2', git rebase -i HEAD~1, git branch -f main C6
